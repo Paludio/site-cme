@@ -1,1 +1,84 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Henderson Sans Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../public/fonts/1.1.HendersonSans-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Henderson Sans Light Italic";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../../public/fonts/1.HendersonSans-LightItalic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "Henderson Sans Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../public/fonts/2.2.HendersonSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Henderson Sans Regular Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../../public/fonts/2.HendersonSans-RegularItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Henderson Sans Semi Bold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../public/fonts/3.3.HendersonSans-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Henderson Sans Semi Bold Italic";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../../public/fonts/3.HendersonSans-SemiBoldIt.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Henderson Sans Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../public/fonts/4.4.HendersonSans-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Henderson Sans Bold Italic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../../public/fonts/4.HendersonSans-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Henderson Sans Black";
+  src: url("../../public/fonts/5.5.HendersonSans-Black.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Henderson Sans Black Italic";
+  src: url("../../public/fonts/5.HendersonSans-BlackItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 900;
+}
+
+@theme {
+  --font-henderson-light: "Henderson Sans Light", sans-serif;
+  --font-henderson-light-italic: "Henderson Sans Light Italic", sans-serif;
+  --font-henderson-regular: "Henderson Sans Regular", sans-serif;
+  --font-henderson-regular-italic: "Henderson Sans Regular Italic", sans-serif;
+  --font-henderson-semi-bold: "Henderson Sans Semi Bold", sans-serif;
+  --font-henderson-semi-bold-italic: "Henderson Sans Semi Bold Italic", sans-serif;
+  --font-henderson-bold: "Henderson Sans Bold", sans-serif;
+  --font-henderson-bold-italic: "Henderson Sans Bold Italic", sans-serif;
+  --font-henderson-black: "Henderson Sans Black", sans-serif;
+  --font-henderson-black-italic: "Henderson Sans Black Italic", sans-serif;
+}
