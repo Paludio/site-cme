@@ -70,7 +70,7 @@
   font-weight: 900;
 }
 
-@theme {
+@theme fonts {
   --font-henderson-light: "Henderson Sans Light", sans-serif;
   --font-henderson-light-italic: "Henderson Sans Light Italic", sans-serif;
   --font-henderson-regular: "Henderson Sans Regular", sans-serif;
@@ -81,4 +81,15 @@
   --font-henderson-bold-italic: "Henderson Sans Bold Italic", sans-serif;
   --font-henderson-black: "Henderson Sans Black", sans-serif;
   --font-henderson-black-italic: "Henderson Sans Black Italic", sans-serif;
+
+  --color-primary-default: #CBAE4C;
+  --color-primary-light: #E5D88A; 
+  --color-primary-dark: #A38B3A;
+  --color-secundary-default: #FBFAD4;
+  --color-secundary-light: #FEFCEB;
+  --color-secundary-dark: #D4D3B0;
+  --color-neutral-default: #4E4D4D;
+  --color-neutral-light: #757575;
+  --color-neutral-dark: #2E2E2E;
+  --color-black: #000000;
 }
