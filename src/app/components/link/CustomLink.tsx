@@ -1,10 +1,9 @@
 import Link from "next/link";
+import { AnchorHTMLAttributes } from "react";
 
-type customLinkProps = {
+type customLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
   href: string;
   children: React.ReactNode;
-  className?: string;
-  [key: string]: any;
 }
 
 export default function CustomLink({ href, children, className, ...props }: customLinkProps) {
