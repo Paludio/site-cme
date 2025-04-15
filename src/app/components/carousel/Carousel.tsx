@@ -5,10 +5,10 @@ import { Autoplay } from "swiper/modules";
 import Image from "next/image";
 
 const slides = [
-  "/images/carroussel/IMG-20200712-WA0003.jpg",
-  "/images/carroussel/IMG-20200712-WA0001.jpg",
-  "/images/carroussel/20201103_200448.jpg",
-  "/images/carroussel/20200912_211006.jpg",
+  "/images/carousel/IMG-20200712-WA0003.jpg",
+  "/images/carousel/IMG-20200712-WA0001.jpg",
+  "/images/carousel/20201103_200448.jpg",
+  "/images/carousel/20200912_211006.jpg",
 ]
 
 export default function Carousel() {
