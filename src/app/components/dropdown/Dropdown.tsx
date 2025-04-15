@@ -27,7 +27,7 @@ export default function Dropdow() {
     >
       <button
         onClick={toggleDropdown}
-        className="flex items-center gap-1 font-henderson-semi-bold text-white"
+        className="flex items-center gap-1 font-henderson-semi-bold text-white hover:text-primary-light decoration-2 transition-all duration-300 ease-in-out"
       >
         Mais{" "}
         <BsChevronCompactDown className={`w-4 h-4 ml-1 transition-transform ${ open && "rotate-180" }`}/>
@@ -53,7 +53,7 @@ export default function Dropdow() {
                   <ItemMenu href="/ministerios" label="Ministérios" icon={BsFire}/>
                 </li>
                 <li>
-                  <ItemMenu href="/noticias" label="Igreja" icon={PiBookOpenText}/>
+                  <ItemMenu href="/noticias" label="Notícias" icon={PiBookOpenText}/>
                 </li>
                 <li>
                   <ItemMenu href="/biblia" label="Bíblia" icon={BiSolidBible}/>

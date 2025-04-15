@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./components/header/Header";
 import CustomLink from "./components/link/CustomLink";
 import Dropdow from "./components/dropdown/Dropdown";
+import Carousel from "./components/carousel/Carousel";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
         />
       </CustomLink>
       <nav
-        className="ml flex flex-row items-center"
+        className="ml flex flex-row items-center text-base"
       >
           <ul
             className="flex items-center gap-6 font-henderson-semi-bold text-white"
@@ -37,6 +38,7 @@ export default function Home() {
           <Dropdow />
       </nav>
     </Header>
+    <Carousel />
    </>
   );
 }

@@ -11,7 +11,7 @@ export default function CustomLink({ href, children, className, ...props }: cust
   return (
     <Link
       href={href}
-      className={`${className}`}
+      className={`${className} hover:text-primary-light decoration-2 transition-all duration-300 ease-in-out`}
       {...props}
     >
       {children}
